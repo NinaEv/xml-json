@@ -17,8 +17,8 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        File file = new File("src\\main\\java\\data.xml");
-        File result = new File("src\\main\\java\\data2.json");
+        File file = new File("src\\main\\resources\\data.xml");
+        File result = new File("src\\main\\resources\\data2.json");
         listToJSON(result, parseXML(file));
     }
 
